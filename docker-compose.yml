@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  kubernetes5:
+    image: ${DOCKER_REGISTRY-}kubernetes5
+    build:
+      context: .
+      dockerfile: Kubernetes5/Dockerfile

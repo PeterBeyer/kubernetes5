@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30223.230
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kubernetes5", "Kubernetes5\Kubernetes5.csproj", "{A4FDD39D-C9FE-4F37-BF27-A02E2AD92E5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kubernetes5", "Kubernetes5\Kubernetes5.csproj", "{A4FDD39D-C9FE-4F37-BF27-A02E2AD92E5A}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FEAEA29B-9CD9-430D-874F-2E01041FD85B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A4FDD39D-C9FE-4F37-BF27-A02E2AD92E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4FDD39D-C9FE-4F37-BF27-A02E2AD92E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4FDD39D-C9FE-4F37-BF27-A02E2AD92E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAEA29B-9CD9-430D-874F-2E01041FD85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAEA29B-9CD9-430D-874F-2E01041FD85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAEA29B-9CD9-430D-874F-2E01041FD85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAEA29B-9CD9-430D-874F-2E01041FD85B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
